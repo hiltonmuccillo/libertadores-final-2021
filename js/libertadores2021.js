@@ -50,7 +50,7 @@ button.addEventListener('click', function(){
         flamengo.value = "";        
     }, 1500);
     setTimeout(function(){
-        libertadores.innerHTML = "Digitar de novo o placar!";
+        libertadores.innerHTML = "Digite o placar!";
         libertadores.style.cssText = "opacity: 1";
     }, 2000)        
 });
