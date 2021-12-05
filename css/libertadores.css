@@ -128,6 +128,14 @@ button {
 button:focus-visible, button:hover {
     outline: 4px solid #e5b559;          
 }
+button:disabled {
+    background-color: darkgrey;
+    color: #000;
+    cursor: not-allowed;
+}
+button:hover:disabled {
+    outline: none;          
+}
 #liberta {
     font-family: 'Luxurious Script', cursive;
     padding-top: 15px;
