@@ -55,12 +55,6 @@ button.addEventListener('click', function(){
     }, 2000)        
 });
 
-function onFocus(){
-    // libertadores.innerHTML = "Digite o placar!";
-    // libertadores.style.cssText = "opacity: 1";
-    // button.disabled = false;      
-}
-
 function submitForm(event) {
     event.preventDefault();        
 }
